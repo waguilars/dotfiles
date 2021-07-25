@@ -1,0 +1,5 @@
+core18
+gnome-3-34-1804
+gtk-common-themes
+snap-store
+snapd
