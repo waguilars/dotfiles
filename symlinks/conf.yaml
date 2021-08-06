@@ -17,3 +17,5 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.inputrc: shell/.inputrc
+    ~/.p10k.zsh: shell/config/.p10k.zsh
+    ~/.tldrrc: shell/config/.tldrrc

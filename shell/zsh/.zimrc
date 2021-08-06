@@ -3,13 +3,13 @@ zmodule zimfw/environment
 zmodule zimfw/git-info
 zmodule zimfw/history
 zmodule zimfw/input
+zmodule https://github.com/Aloxaf/fzf-tab.git
 zmodule zsh-users/zsh-autosuggestions
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zimfw/completion
 
 zmodule https://github.com/changyuheng/zsh-interactive-cd
 zmodule https://github.com/wfxr/forgit
-zmodule https://github.com/Aloxaf/fzf-tab.git
 zmodule romkatv/powerlevel10k
 
 zhighlighters=(main brackets)
