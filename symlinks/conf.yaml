@@ -19,3 +19,4 @@
     ~/.inputrc: shell/.inputrc
     ~/.p10k.zsh: shell/config/.p10k.zsh
     ~/.tldrrc: shell/config/.tldrrc
+    ~/.gitconfig: git/.gitconfig

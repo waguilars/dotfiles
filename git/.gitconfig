@@ -1,0 +1,8 @@
+[user]
+	name = Wilson Aguilar
+	email = waguilars@est.ups.edu.ec
+	signingkey = 612C7BEDAFC7142B839873C82A3AC44A1A17AA62
+[commit]
+	gpgsign = true
+[init]
+	defaultbranch = main
