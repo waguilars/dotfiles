@@ -13,6 +13,10 @@ export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
 
+export SPARK_HOME=/opt/spark
+export PYSPARK_PYTHON=/usr/bin/python3
+
+
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
@@ -35,6 +39,8 @@ export path=(
   "$GEM_HOME/bin"
   "$GOPATH/bin"
   "$HOME/.cargo/bin"
+  "/opt/spark/bin"
+  "/opt/spark/sbin"
   "/usr/local/opt/ruby/bin"
   "/usr/local/opt/python/libexec/bin"
   "/opt/homebrew/bin"
