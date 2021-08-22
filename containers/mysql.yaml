@@ -1,0 +1,31 @@
+version: "3.8"  # optional since v1.27.0
+
+services:
+  db:
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: mysql-db
+    volumes:
+      - db-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: mysq-password
+    ports:
+      - "3306:3306"
+    security_opt:
+      - seccomp:unconfined
+
+  phpmyadmin:
+    image: phpmyadmin:5.1-apache
+    container_name: phpmyadmin
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+      MYSQL_ROOT_PASSWORD: ''
+    ports:
+      - 8080:80
+
+volumes:
+  db-data:

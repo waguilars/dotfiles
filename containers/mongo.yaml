@@ -1,0 +1,13 @@
+version: "3.8"  # optional since v1.27.0
+
+services:
+  db:
+    image: mongo:5.0
+    container_name: mongodb
+    volumes:
+      - db-data:/data/db
+    ports:
+      - 27017:27017
+
+volumes:
+  db-data:
