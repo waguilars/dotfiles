@@ -1,7 +1,7 @@
 [user]
 	name = Wilson Aguilar
-	email = waguilars@est.ups.edu.ec
-	signingkey = 612C7BEDAFC7142B839873C82A3AC44A1A17AA62
+	email = 52500170+waguilars@users.noreply.github.com
+	signingkey = B6B9E58204875BDD861377FCADD7DC51B1D9ECC2
 [commit]
 	gpgsign = true
 [init]
