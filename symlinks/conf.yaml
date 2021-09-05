@@ -20,3 +20,4 @@
     ~/.p10k.zsh: shell/config/.p10k.zsh
     ~/.tldrrc: shell/config/.tldrrc
     ~/.gitconfig: git/.gitconfig
+    ~/.config/tilix: config/tilix

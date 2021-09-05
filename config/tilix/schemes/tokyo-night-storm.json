@@ -1,0 +1,33 @@
+{
+  "name": "Tokyo Night Storm",
+  "comment": "Custom Theme using tokyio night scheme colors",
+  "foreground-color": "#a9b1d6",
+  "background-color": "#24283b",
+  "use-theme-colors": false,
+  "use-highlight-color": false,
+  "highlight-foreground-color": "#ffffff",
+  "highlight-background-color": "#a348b1",
+  "use-cursor-color": false,
+  "cursor-foreground-color": "#ffffff",
+  "cursor-background-color": "#efefef",
+  "use-badge-color": true,
+  "badge-color": "#ac7ea8",
+  "palette": [
+      "#414868",
+      "#ff9e64",
+      "#73daca",
+      "#e0af68",
+      "#7aa2f7",
+      "#bb9af7",
+      "#7dcfff",
+      "#c0caf5",
+      "#545652",
+      "#f7768e",
+      "#89E234",
+      "#FBE84F",
+      "#729ECF",
+      "#AC7EA8",
+      "#34E2E2",
+      "#EDEDEB"
+  ]
+}
