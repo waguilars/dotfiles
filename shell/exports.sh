@@ -21,7 +21,7 @@ export PYSPARK_PYTHON=/usr/bin/python3
 # Apps
 # ------------------------------------------------------------------------------
 if [ "$CODELY_THEME_MODE" = "dark" ]; then
-  fzf_colors="pointer:#ebdbb2,bg+:#3c3836,fg:#ebdbb2,fg+:#fbf1c7,hl:#8ec07c,info:#928374,header:#fb4934"
+  fzf_colors="pointer:#729ECF,bg+:#414868,fg:#7dcfff,fg+:#7aa2f7,hl:#73daca,info:#565f89,header:#f7768e"
 else
   fzf_colors="pointer:#db0f35,bg+:#d6d6d6,fg:#808080,fg+:#363636,hl:#8ec07c,info:#928374,header:#fffee3"
 fi
