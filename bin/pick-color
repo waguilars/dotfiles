@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
+# function listen_keys() {
+#     read -s -n1  key
+#     case $key in
+#         $'\e') exit 0
+#     esac
+# }
+
+
 if ! pidof -x "gpick" >/dev/null; then
-    gpick -s -o | xclip -selection clipboard
+    color=$(gpick -so --no-start );
+    [ -z $color ] && exit 0
+    echo $color | xclip -selection clipboard
 fi
 
