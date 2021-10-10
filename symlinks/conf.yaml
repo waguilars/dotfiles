@@ -21,3 +21,4 @@
     ~/.tldrrc: shell/config/.tldrrc
     ~/.gitconfig: git/.gitconfig
     ~/.config/tilix: config/tilix
+    ~/.config/rofi: config/rofi
