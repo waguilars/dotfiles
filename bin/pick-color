@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+if ! pidof -x "gpick" >/dev/null; then
+    gpick -s -o | xclip -selection clipboard
+fi
+
