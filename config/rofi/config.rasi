@@ -103,13 +103,14 @@ mainbox {
 }
 
 message {
-	background-color: #0000;
+	background-color:#0000;
 	padding: 10px;
 	border-radius: 12px;
 }
 
 textbox {
-	background-color: #0000;
+	background-color: @transparent;
+	padding: 10px;
 	text-color: @foreground;
 }
 

@@ -10,8 +10,7 @@ set -e
 
 
 if ! pidof -x "gpick" >/dev/null; then
-    color=$(gpick -so --no-start );
+    color=$(gpick -so --no-newline);
     [ -z $color ] && exit 0
-    echo $color | xclip -selection clipboard
+    echo -n $color | xclip -selection clipboard
 fi
-
