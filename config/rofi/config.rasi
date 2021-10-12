@@ -8,7 +8,7 @@ configuration {
 	matching: "fuzzy";
 	scroll-method: 0;
 	disable-history: false;
-	window-thumbnail: true;
+	/** window-thumbnail: true; **/
 }
 
 * {
