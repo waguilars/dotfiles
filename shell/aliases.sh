@@ -8,6 +8,7 @@ alias la="exa -la --icons"
 alias ls="exa --icons"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
+alias cat="bat"
 
 # Git
 alias gaa="git add -A"

@@ -40,6 +40,7 @@ export path=(
   "$GEM_HOME/bin"
   "$GOPATH/bin"
   "$HOME/.cargo/bin"
+  "$HOME/.local/bin"
   "/opt/spark/bin"
   "/opt/spark/sbin"
   "/usr/local/opt/ruby/bin"
