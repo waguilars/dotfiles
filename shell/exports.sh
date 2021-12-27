@@ -2,7 +2,7 @@
 # Codely theme config
 # ------------------------------------------------------------------------------
 export CODELY_THEME_MINIMAL=false
-export CODELY_THEME_MODE=" " #dark default
+export CODELY_THEME_MODE="" #dark default
 export CODELY_THEME_PROMPT_IN_NEW_LINE=false
 export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 
@@ -28,6 +28,8 @@ else
 fi
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
+
+export TIMEFMT=$'CPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
 
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
