@@ -3,7 +3,7 @@ zmodule zimfw/environment
 zmodule zimfw/git-info
 zmodule zimfw/history
 zmodule zimfw/input
-#zmodule https://github.com/Aloxaf/fzf-tab.git
+zmodule https://github.com/Aloxaf/fzf-tab.git
 zmodule zsh-users/zsh-autosuggestions
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zimfw/completion

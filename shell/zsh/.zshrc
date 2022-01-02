@@ -44,3 +44,5 @@ export NVM_DIR="$HOME/.nvm"
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
+
+zstyle ':completion:*' format '[%d]'
