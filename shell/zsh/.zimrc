@@ -8,7 +8,7 @@ zmodule zsh-users/zsh-autosuggestions
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zimfw/completion
 
-zmodule https://github.com/changyuheng/zsh-interactive-cd
+#zmodule https://github.com/changyuheng/zsh-interactive-cd
 zmodule https://github.com/wfxr/forgit
 zmodule romkatv/powerlevel10k
 
