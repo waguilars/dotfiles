@@ -34,8 +34,6 @@ fi
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
-export TIMEFMT=$'CPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
-
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
