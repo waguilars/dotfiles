@@ -48,6 +48,7 @@ export path=(
   "$HOME/.local/bin"
   "/opt/spark/bin"
   "/opt/spark/sbin"
+  "/usr/games"
   "/usr/local/opt/ruby/bin"
   "/usr/local/opt/python/libexec/bin"
   "/opt/homebrew/bin"

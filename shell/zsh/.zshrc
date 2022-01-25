@@ -46,3 +46,4 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
 fi
 
 zstyle ':completion:*' format '[%d]'
+fpath+=${ZDOTDIR:-~}/.zsh_functions
