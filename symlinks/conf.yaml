@@ -19,6 +19,8 @@
     ~/.inputrc: shell/.inputrc
     ~/.p10k.zsh: shell/config/.p10k.zsh
     ~/.tldrrc: shell/config/.tldrrc
+    ~/.tmux.conf: shell/config/.tmux.conf
+    ~/.tmux.conf: shell/config/.tmux.conf.local
     ~/.gitconfig: git/.gitconfig
     ~/.config/tilix: config/tilix
     ~/.config/rofi: config/rofi
