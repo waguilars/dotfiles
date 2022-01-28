@@ -1,9 +1,8 @@
 [user]
 	name = Wilson Aguilar
 	email = 52500170+waguilars@users.noreply.github.com
-	signingkey = B6B9E58204875BDD861377FCADD7DC51B1D9ECC2
 [commit]
-	gpgsign = true
+	gpgsign = false
 [init]
 	defaultbranch = main
 [credential]
