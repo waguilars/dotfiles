@@ -1,7 +1,7 @@
 # If you modify this execute `zimfw uninstall & zimfw install`
 zmodule zimfw/environment
 zmodule zimfw/git-info
-zmodule zimfw/history
+#zmodule zimfw/history #Repo deleted
 zmodule zimfw/input
 zmodule https://github.com/Aloxaf/fzf-tab.git
 zmodule zsh-users/zsh-autosuggestions
