@@ -6,3 +6,5 @@
 	gpgsign = true
 [init]
 	defaultbranch = main
+[credential]
+	helper = store
