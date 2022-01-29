@@ -11,3 +11,4 @@ zmodule zsh-users/zsh-autosuggestions
 
 # Custom
 zmodule https://github.com/wfxr/forgit
+zmodule lukechilds/zsh-nvm
