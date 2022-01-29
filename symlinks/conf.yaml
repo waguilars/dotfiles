@@ -23,3 +23,4 @@
     ~/.tldrrc: shell/config/.tldrrc
     ~/.tmux.conf: shell/config/.tmux.conf
     ~/.tmux.conf.local: shell/config/.tmux.conf.local
+    ~/.gitconfig: git/gitconfig
