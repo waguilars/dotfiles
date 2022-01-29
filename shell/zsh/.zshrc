@@ -29,6 +29,9 @@ source "$DOTLY_PATH/shell/zsh/bindings/dot.zsh"
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 
+source "$DOTFILES_PATH/shell/init.scripts/_init.sh"
+
 # fzftab-colors load
 zstyle ':completion:*' format '[%d]'
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
