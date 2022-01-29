@@ -22,6 +22,8 @@ window:
     columns: 110
     lines: 30
 
+  opacity: 0.9
+
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
 

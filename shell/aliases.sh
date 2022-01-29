@@ -1,6 +1,9 @@
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
+# Custom
+alias gce="gitmoji -c"
+alias cat="batcat"
 alias ls="exa --icons"
 
 alias ..="cd .."
@@ -23,6 +26,7 @@ alias gpsf="git push --force"
 alias gpl="git pull --rebase --autostash"
 alias gb="git branch"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
+
 
 # Utils
 alias k='kill -9'

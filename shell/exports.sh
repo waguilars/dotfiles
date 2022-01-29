@@ -18,6 +18,8 @@ export GOPATH="$HOME/.go"
 # ------------------------------------------------------------------------------
 
 export NVM_LAZY_LOAD=true
+export NVM_COMPLETION=true
+
 
 # ------------------------------------------------------------------------------
 # Apps
@@ -41,6 +43,7 @@ export path=(
   "$GEM_HOME/bin"
   "$GOPATH/bin"
   "$HOME/.cargo/bin"
+  "/usr/games"
   "/usr/local/opt/ruby/bin"
   "/usr/local/opt/python/libexec/bin"
   "/opt/homebrew/bin"
