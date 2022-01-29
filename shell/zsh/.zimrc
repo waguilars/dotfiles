@@ -2,6 +2,12 @@
 zmodule zimfw/environment
 zmodule zimfw/git-info
 zmodule zimfw/input
+
+zmodule https://github.com/Aloxaf/fzf-tab.git
+
 zmodule zimfw/completion
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zsh-users/zsh-autosuggestions
+
+# Custom
+zmodule https://github.com/wfxr/forgit
