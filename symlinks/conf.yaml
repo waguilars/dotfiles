@@ -17,3 +17,9 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.inputrc: shell/.inputrc
+    ~/.config/alacritty: shell/config/alacritty
+    ~/.config/rofi: shell/config/rofi
+    ~/.config/tilix: shell/config/tilix
+    ~/.tldrrc: shell/config/.tldrrc
+    ~/.tmux.conf: shell/config/.tmux.conf
+    ~/.tmux.conf.local: shell/config/.tmux.conf.local

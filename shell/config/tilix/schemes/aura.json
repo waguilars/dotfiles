@@ -1,0 +1,34 @@
+{
+  "name": "Aura Theme",
+  "comment": "Custom Theme using Aura Theme scheme colors",
+  "background-color": "#15141b",
+  "foreground-color": "#edecee",
+  "use-theme-colors": false,
+  "use-highlight-color": false,
+  "highlight-foreground-color": "#edecee",
+  "highlight-background-color": "#15141b",
+  "use-cursor-color": true,
+  "cursor-foreground-color": "#a277ff",
+  "cursor-background-color": "#a277ff",
+  "use-badge-color": false,
+  "badge-color": "#ac7ea8",
+  "palette": [
+      "#110f18",
+      "#ff6767",
+      "#61ffca",
+      "#ffca85",
+      "#a277ff",
+      "#9683c1",
+      "#61ffca",
+      "#edecee",
+
+      "#4d4d4d",
+      "#ff6767",
+      "#61ffca",
+      "#ffca85",
+      "#a277ff",
+      "#9683c1",
+      "#61ffca",
+      "#edecee"
+  ]
+}
