@@ -34,4 +34,3 @@ source "$DOTFILES_PATH/shell/init.scripts/_init.sh"
 # fzftab-colors load
 zstyle ':completion:*' format '[%d]'
 fpath+=${ZDOTDIR:-~}/.zsh_functions
-
