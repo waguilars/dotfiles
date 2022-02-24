@@ -8,3 +8,5 @@
 	defaultbranch = main
 [credential]
 	helper = store
+[core]
+	excludesfile = .gitignore_global
