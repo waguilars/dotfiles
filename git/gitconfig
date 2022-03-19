@@ -9,4 +9,4 @@
 [credential]
 	helper = store
 [core]
-	excludesfile = .gitignore_global
+	excludesfile = ~/.gitignore_global

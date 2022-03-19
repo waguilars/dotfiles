@@ -9,7 +9,7 @@ export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
-export JAVA_HOME='/usr/lib/jvm/java-17-amazon-corretto'
+export JAVA_HOME='/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64'
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
 export DENO_INSTALL="$HOME/.deno"
@@ -37,6 +37,7 @@ export NVM_COMPLETION=true
 # ------------------------------------------------------------------------------
 export path=(
   "$HOME/bin"
+  "$HOME/.local/bin"
   "$DOTLY_PATH/bin"
   "$DOTFILES_PATH/bin"
   "$JAVA_HOME/bin"
