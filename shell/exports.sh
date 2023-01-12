@@ -20,6 +20,10 @@ export DENO_INSTALL="$HOME/.deno"
 
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
+export FZF_DEFAULT_OPTS="
+--no-sort
+--reverse
+"
 
 # ------------------------------------------------------------------------------
 # Apps

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+branches=$(git branch --merged| egrep -v "(^\*|master|main|develop)")
+
+if [ -n "$branches" ]
+then
+    echo "$branches" | xargs -n 1 git branch -d
+fi

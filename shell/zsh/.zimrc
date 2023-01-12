@@ -13,3 +13,4 @@ zmodule dominik-schwabe/zsh-fnm
 zmodule ryutok/rust-zsh-completions -s rust.plugin.zsh
 zmodule https://github.com/Aloxaf/fzf-tab.git
 # zmodule lukechilds/zsh-nvm
+zmodule gradle/gradle-completion
